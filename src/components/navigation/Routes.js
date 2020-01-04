@@ -5,21 +5,26 @@ import {
 } from 'react-router-dom'
 
 import Home from '../home/home'
-import './background.css'
+import Projects from '../projects/projects'
+import Contact from '../contact/contact'
+import About from '../about/about'
 
 export const Routes = () => {
 
     return (
-        <div className= "backgorund">
+        <div>
             <Switch>
                 <Route exact path= "/">
                     <HomePage />
                 </Route>
+                <Route path= "/projects">
+                    <ProjectsPage />
+                </Route> 
                 <Route path= "/contact">
-
+                    <ContactPage />
                 </Route>                
                 <Route path= "/about">
-                    
+                    <AboutPage />
                 </Route>
             </Switch>
         </div>
@@ -31,3 +36,21 @@ function HomePage(){
         <Home />
     )
 }//HomePage
+
+function ContactPage(){
+    return(
+        <Contact />
+    )
+}
+
+function ProjectsPage(){
+    return(
+        <Projects />
+    )
+}
+
+function AboutPage(){
+    return(
+        <About />
+    )
+}
