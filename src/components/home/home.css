@@ -1,23 +1,58 @@
 .home{
-    color: #0A0A0A;
-
+    background-color: #F7F7F7;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-size: cover;
 }
 
-#profilePic{
-    width: 32vw;
+.mainBody{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    width: 80vw;
+    padding: 30px;
+}
+
+.proPic{
+    width: 25vw;
     height: auto;
+    border-radius: 50%;
     float: left;
-    margin-left: 2vw;
-    margin-top: 2vh;
-    border-style: solid;
-    border-width: 5px;
-    border-color: #F15025;
+    shape-outside: circle();
+    margin: 20px 30px 30px 0;
 }
 
-#header{
-    margin-top: 2vh;
+p{
+    margin: 50px;
+    padding: 0;
+    vertical-align: middle;
+    text-align: justify;
+    line-height: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
 }
 
-.pro-bio{
-    margin-top: 2vh;
+#name{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+}
+
+.logo{
+    width: 5vw;
+    height: auto;
+    margin-left: 47.5vw;
+    margin-right: 47.5vw;
+    text-align: center;
+    float: bottom;
+}
+
+.links{
+    text-align: right;
+    color: #F15025
+}
+
+a{
+    color: #F15025
 }

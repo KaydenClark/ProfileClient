@@ -8,10 +8,10 @@ export const Links = () => {
         <div>
             <nav className= "nav">
                 <ul className= "ulList">
-                <li className= "liList">
+                    <li className= "liList">
                         <Link className= "link" to= "/">Home</Link>
                     </li>
-                    <li className= "liList">
+                    <li id="project" className= "liList">
                         <Link className= "link" to= "/projects">Projects</Link>
                     </li>
                     <li className= "liList">

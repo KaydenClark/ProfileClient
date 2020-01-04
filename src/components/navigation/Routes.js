@@ -5,20 +5,21 @@ import {
 } from 'react-router-dom'
 
 import Home from '../home/home'
+import './background.css'
 
 export const Routes = () => {
 
     return (
-        <div>
+        <div className= "backgorund">
             <Switch>
                 <Route exact path= "/">
                     <HomePage />
                 </Route>
                 <Route path= "/contact">
-                    <HomePage />
+
                 </Route>                
                 <Route path= "/about">
-
+                    
                 </Route>
             </Switch>
         </div>

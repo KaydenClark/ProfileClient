@@ -22,8 +22,15 @@
 
 .link{
     display: block;
-    color: #009DFF;
+    color: #F7F7F7;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
+
+/* .active, #projects{
+    display: none;
+    padding: 0 18px;
+    background-color: #848C8E;
+    overflow: hidden;
+} */
