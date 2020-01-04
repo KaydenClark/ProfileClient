@@ -1,0 +1,29 @@
+.nav{
+    background-color: #0A0A0A;
+}
+
+.ulList{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-left: 2vw;
+}
+
+.liList:hover {
+    background-color: #474747;
+}
+
+.liList{
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+
+}
+
+.link{
+    display: block;
+    color: #009DFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}

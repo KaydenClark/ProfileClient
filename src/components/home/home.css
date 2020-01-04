@@ -1,0 +1,23 @@
+.home{
+    color: #0A0A0A;
+
+}
+
+#profilePic{
+    width: 32vw;
+    height: auto;
+    float: left;
+    margin-left: 2vw;
+    margin-top: 2vh;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #F15025;
+}
+
+#header{
+    margin-top: 2vh;
+}
+
+.pro-bio{
+    margin-top: 2vh;
+}
