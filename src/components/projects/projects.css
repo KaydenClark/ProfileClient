@@ -8,11 +8,11 @@
     margin-left: 10vw;
     margin-right: 10vw;
     width: 80vw;
-    padding: .15vw;
+    padding: 10px;
 }
 
 #header{
-    font-size: 4vw;
+    font-size: 60px;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }

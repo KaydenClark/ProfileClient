@@ -1,37 +1,46 @@
 .nav{
-    background-color: #0A0A0A;
+    
     width: 100vw;
 }
 
 .ulList{
+    background-color: #0A0A0A;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    margin-left: 2vw;
+    width: 100vw;
 }
 
 .liList:hover {
-    background-color: #474747;
+    background-color: #F15025;
+}
+
+.link:hover{
+    color: #0A0A0A;
+    text-decoration: none;
 }
 
 .liList{
     font-family: 'Times New Roman', Times, serif;
     float: left;
+}
 
+.liListRight{
+    float: right;
 }
 
 .link{
     display: block;
     color: #F7F7F7;
     text-align: center;
-    padding: .75vw .75vw;
+    padding: 14px 16px;
     text-decoration: none;
+    font-size: 20px;
 }
 
-/* .active, #projects{
-    display: none;
-    padding: 0 18px;
-    background-color: #848C8E;
-    overflow: hidden;
-} */
+#HamMenu{
+    width: 50px;
+    margin-top: 5px;
+    float: right;
+}

@@ -13,7 +13,7 @@
 }
 
 #header{
-    font-size: 4vw;
+    font-size: 60px;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -21,11 +21,12 @@
 .contactList{
     text-align: center;
     list-style: none;
-    font-size: 1.5vw 'Times New Roman', Times, serif;
+    font-size: 30px;
 }
 
 #endCard{
     text-align: center;
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
 }

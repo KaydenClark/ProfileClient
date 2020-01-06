@@ -23,16 +23,16 @@
 #bio{
     margin: 50px;
     padding: 0;
-    vertical-align: middle;
+    /* vertical-align: middle; */
     text-align: justify;
-    line-height: 35px;
+    /* line-height: 35px; */
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5vw;
+    font-size: 25px;
 }
 
 #name{
     text-align: center;
-    font-size: 4vw;
+    font-size: 60px;
     font-family: 'Times New Roman', Times, serif;
     margin-top: 1vw;
 }
@@ -41,7 +41,7 @@
     width: 5vw;
     height: auto;
     margin-left: 47.5vw;
-    margin-right: 47.5vw;
+    /* margin-right: 47.5vw; */
     text-align: center;
     float: bottom;
 }
@@ -49,8 +49,9 @@
 .links{
     text-align: right;
     color: #F15025;
+    text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5vw;
+    font-size: 30px;
 }
 
 a{

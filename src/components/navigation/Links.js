@@ -1,12 +1,12 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import '../../styles/NavBar.css'
+import HamMenu from '../../assets/icons/hamburger_menu.png'
 
 export const Links = () => {
     
     return (
         <div>
-            <nav className= "nav">
                 <ul className= "ulList">
                     <li className= "liList">
                         <Link className= "link" to= "/">Home</Link>
@@ -20,8 +20,10 @@ export const Links = () => {
                     <li className= "liList">
                         <Link className= "link" to= "/about">About</Link>
                     </li>
+                    <li className= "liListRight">
+                        <img src= {HamMenu} alt= "menuIcon" id="HamMenu"/>
+                    </li>
                 </ul>
-            </nav>
         </div>
         )
 }
