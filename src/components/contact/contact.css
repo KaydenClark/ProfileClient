@@ -9,11 +9,11 @@
     margin-left: 10vw;
     margin-right: 10vw;
     width: 80vw;
-    padding: 30px;
+    margin-top: 1.5vh;
 }
 
 #header{
-    font-size: 60px;
+    font-size: 4vw;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -21,8 +21,7 @@
 .contactList{
     text-align: center;
     list-style: none;
-    font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5vw 'Times New Roman', Times, serif;
 }
 
 #endCard{

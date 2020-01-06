@@ -1,5 +1,6 @@
 .nav{
     background-color: #0A0A0A;
+    width: 100vw;
 }
 
 .ulList{
@@ -24,7 +25,7 @@
     display: block;
     color: #F7F7F7;
     text-align: center;
-    padding: 14px 16px;
+    padding: .75vw .75vw;
     text-decoration: none;
 }
 
