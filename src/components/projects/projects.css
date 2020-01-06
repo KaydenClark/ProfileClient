@@ -1,0 +1,18 @@
+.projectPage{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
+
+.projectBody{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    width: 80vw;
+    padding: 30px;
+}
+
+#header{
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
