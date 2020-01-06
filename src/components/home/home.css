@@ -1,7 +1,6 @@
 .home{
     margin: 0;
     padding: 0;
-    font-family: 'Times New Roman', Times, serif;
     background-size: cover;
 }
 
@@ -21,7 +20,7 @@
     margin: 20px 30px 30px 0;
 }
 
-p{
+#bio{
     margin: 50px;
     padding: 0;
     vertical-align: middle;
@@ -49,7 +48,9 @@ p{
 
 .links{
     text-align: right;
-    color: #F15025
+    color: #F15025;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
 }
 
 a{

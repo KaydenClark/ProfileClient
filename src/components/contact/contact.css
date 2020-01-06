@@ -1,15 +1,32 @@
-.mainBody{
-    margin-left: 10vw;
-    margin-right: 10vw;
-    width: 80vw;
-    padding: 30px;
-    background-color: blue;
-}
-
-.home{
-    background-color: #F7F7F7;
+.contactInfo{
     margin: 0;
     padding: 0;
     font-family: 'Times New Roman', Times, serif;
     background-size: cover;
+}
+
+.contactBody{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    width: 80vw;
+    padding: 30px;
+}
+
+#header{
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contactList{
+    text-align: center;
+    list-style: none;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#endCard{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
 }
