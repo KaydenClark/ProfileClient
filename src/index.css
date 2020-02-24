@@ -12,14 +12,11 @@ code {
     monospace;
 }
 
-#root{
-  background: #F7F7F7;
-}
-
 html{
   background: #F7F7F7;
 }
 
 a{
-  color: #F15025
+  color: #F15025;
+  text-decoration: none;
 }

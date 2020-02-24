@@ -4,10 +4,11 @@ import {
     Route,
 } from 'react-router-dom'
 
-import Home from '../home/home'
-import Projects from '../projects/projects'
-import Contact from '../contact/contact'
-import About from '../about/about'
+import Home from '../../pages/home/home'
+import Projects from '../../pages/projects/projects'
+import Contact from '../../pages/contact/contact'
+import About from '../../pages/about/about'
+import Blog from '../../pages/blog/blogMain'
 
 export const Routes = () => {
 
@@ -25,6 +26,9 @@ export const Routes = () => {
                 </Route>                
                 <Route path= "/about">
                     <AboutPage />
+                </Route>
+                <Route path= "/blog">
+                    <BlogPage />
                 </Route>
             </Switch>
         </div>
@@ -52,5 +56,11 @@ function ProjectsPage(){
 function AboutPage(){
     return(
         <About />
+    )
+}
+
+function BlogPage(){
+    return(
+        <Blog />
     )
 }

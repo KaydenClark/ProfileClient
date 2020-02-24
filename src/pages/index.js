@@ -1,7 +1,7 @@
 import React from 'react'
 import { Links } from '../components/navigation/Links'
 import { Routes } from '../components/navigation/Routes'
-import './background.css'
+// import './background.css'
 
 
 export default () => {
