@@ -17,12 +17,12 @@ export const Links = () => {
                     <li className= "liList">
                         <Link className= "link" to= "/contact">Contact Me</Link>
                     </li>
-                    <li className= "liList">
+                    {/* <li className= "liList">
                         <Link className= "link" to= "/about">About</Link>
-                    </li>
-                    <li className= "liList">
+                    </li> */}
+                    {/* <li className= "liList">
                         <Link className= "link" to= "/blog">Blog</Link>
-                    </li>
+                    </li> */}
                     <li className= "liListRight">
                         <img src= {HamMenu} alt= "menuIcon" id="HamMenu"/>
                     </li>
